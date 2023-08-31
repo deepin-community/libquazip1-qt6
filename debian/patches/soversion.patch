@@ -1,0 +1,16 @@
+Description: SOVERSION should represent an API level, not the current version
+Author: Ben Westover <me@benthetechguy.net>
+Forwarded: not-needed
+Last-Update: 2022-09-10
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -6,7 +6,7 @@
+ include(cmake/clone-repo.cmake)
+ 
+ set(QUAZIP_LIB_VERSION ${QuaZip_VERSION})
+-set(QUAZIP_LIB_SOVERSION 1.4.0)
++set(QUAZIP_LIB_SOVERSION 1)
+ 
+ if(EMSCRIPTEN)
+   #option(ZLIB_INCLUDE "Path to include dir" "")

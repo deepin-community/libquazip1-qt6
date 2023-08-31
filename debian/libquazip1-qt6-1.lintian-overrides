@@ -1,0 +1,3 @@
+# Symbols should not be shipped for C++ libraries; see
+# https://wiki.debian.org/UsingSymbolsFiles#C.2B-.2B-_libraries
+no-symbols-control-file
