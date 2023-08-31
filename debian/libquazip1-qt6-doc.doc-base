@@ -1,0 +1,8 @@
+Document: quazip
+Title: QuaZip Documentation
+Abstract: Documentation for QuaZip, a Qt/C++ wrapper over minizip.
+Section: Programming/C++
+
+Format: HTML
+Index: /usr/share/doc/libquazip1-qt6-dev/html/index.html
+Files: /usr/share/doc/libquazip1-qt6-dev/html/*.html
