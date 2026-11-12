@@ -8,7 +8,7 @@ Build-Depends:
  doxygen,
  graphviz,
  qt6-base-dev,
- libqt6core5compat6-dev,
+ qt6-5compat-dev,
  libbz2-dev,
  zlib1g-dev
 Standards-Version: 4.6.1
@@ -34,7 +34,7 @@ Section: libdevel
 Depends:
  ${misc:Depends},
  qt6-base-dev,
- libqt6core5compat6-dev,
+ qt6-5compat-dev,
  zlib1g-dev,
  libbz2-dev,
  libquazip1-qt6-1 (= ${binary:Version})

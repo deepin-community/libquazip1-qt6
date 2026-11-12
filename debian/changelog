@@ -1,3 +1,11 @@
+libquazip1-qt6 (1.4-1deepin2) unstable; urgency=medium
+
+  * fix: replace nonexistent libqt6core5compat6-dev with qt6-5compat-dev,
+    so libquazip1-qt6-dev becomes installable in the Qt 6.12 repository
+    chain (deepin-scanner and others pkg-check quazip1-qt6).
+
+ -- xiepengfei <xiepengfei@uniontech.com>  Thu, 12 Nov 2026 14:05:00 +0800
+
 libquazip1-qt6 (1.4-1deepin1) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
